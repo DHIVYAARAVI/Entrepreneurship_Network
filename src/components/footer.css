@@ -1,0 +1,56 @@
+.footer{
+    background-image: url('../images/26.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30em;
+    padding: 5% 5% 5% 5%;
+    display: grid;
+    grid-template-columns: 33% 75%;
+}
+
+.font{
+    color: white;
+    font-size: 30px;
+    font-family: 'Candal';
+}
+
+span{
+    color: 	#FF1493;
+}
+
+.image{
+    width: 80px;
+    height: 80px;
+    border-radius: 20%;
+}
+
+.image:hover{       
+    box-shadow: 1px 1px 10px #FF69B4;
+}
+
+.img_footer{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin-top: 5%;
+}
+
+@media only screen and (max-width: 600px){
+    .footer{
+        height: 30em;
+        padding: 5% 5% 5% 5%;
+        display: block;
+    }
+    
+    .font{
+        margin-left: 15%;
+    }
+    
+    .image{
+        width: 60px;
+        height: 60px;
+        margin-left: 20%;
+    }
+}
+
+
+  

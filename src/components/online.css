@@ -1,0 +1,35 @@
+.online{
+    display: grid;
+    grid-template-columns: 33% 33% 33%; 
+}
+
+.cards{
+    padding: 5% 10% 5% 10%; 
+}
+
+.card_img{
+    height: 300px;
+}
+
+.card_img:hover{
+    box-shadow: 2px 3px 7px 7px #D8BFD8;
+}
+
+.c_img{
+    height: 200px;
+}
+
+
+@media only screen and (max-width: 600px){
+    .online{
+        display: block;
+    } 
+
+    .cards{
+        padding: 5% 4% 5% 4%; 
+    }
+    
+    .card_img{
+        height: 315px;
+    }
+}
