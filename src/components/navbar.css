@@ -1,4 +1,8 @@
 .navi{
     font-size: 20px;
-    color: white !important;
+    color: white !important;    
+}
+
+.navi:hover{
+    text-decoration: none;
 }
